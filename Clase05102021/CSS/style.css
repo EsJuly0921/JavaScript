@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+div.app{
+    height: 100px;
+    background-color: cadetblue;
+    margin: 10px 0;
+}
+
+#containerPopUp{
+    width: 100%;
+    height: 100vh;
+    background-color: #00000080;
+    position: absolute;
+}
+
+#popUp{
+    position: absolute;
+    padding: 20px;
+    width: 40%;
+    background-color: chocolate;
+    height: 280px;
+    margin-left: 30%;
+    border-radius: 10px;
+}
+
+#popUp h2{
+    color: white;
+    text-align: center;
+    padding: 2px 0;
+}
+
+#popUp p{
+    color: thistle;
+    text-align: center;
+    padding: 20px;
+}
+
+#popUp div{
+    background-color: wheat;
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+}
+
+#popUp div:hover{
+    background-color: #a7977b;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
