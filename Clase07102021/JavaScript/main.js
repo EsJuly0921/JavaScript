@@ -26,3 +26,21 @@ var card1 = {
     atk: 1200,
     def: 900,
 }
+
+var card12 = {
+    name: 'toledo floang',
+    levels: 12,
+    type: 'Bestía Divina/EFECTO',
+    info: 'Alias: Ingesaurio. Habilidad especial: Dañar libros de ingeniería y dar consejos de ingenieria. En cada ronda aumenta 500ATK.',
+    atk: 4000,
+    def: 4000,
+}
+
+var card13 = {
+    name: 'stefan castillo',
+    levels: 10,
+    type: 'Hechicero/EFECTO',
+    info: 'Hbailidad para las artes oscuras del CSS mágico. Habilidad especial: Logos con CSS. Debilidad: Usar JavaScript le quita 100 ATK',
+    atk: 2200,
+    def: 2000,
+}
