@@ -1,8 +1,27 @@
+/*var cuadros = [
+    {
+        width:'100px',
+        height: '100px',
+        color: 'white'
+    },
+
+    {
+        width:'150px',
+        height: '150px',
+        color: 'blue'
+    },
+    {
+        width:'200px',
+        height: '200px',
+        color: 'pink'
+    }
+]*/
+
 var tiktokers = [
     {
-        name: 'luis angel',
+        name: 'Luis Angel',
         stars: 10,
-        type: 'Frío/ADA',
+        type: 'Frío/Ada',
         info: 'Este monstruo de angular se alimenta de JavaScript. Su debilidad son los corridos tumbados.',
         atk: 1200,
         def: 900,
@@ -11,7 +30,7 @@ var tiktokers = [
     {
         name: 'Daniel',
         stars: 10,
-        type: 'Bestia divina/Efecto',
+        type: 'Bestía Divina/Efecto',
         info: 'Alias DevCaress no puede invocado de modo especial. Requiere 3 sacrificios de desarrolladores, su debilidad es PHP.',
         atk: 3200,
         def: 2000,
@@ -29,7 +48,7 @@ var tiktokers = [
     {
         name: 'Cesar García',
         stars:1,
-        type:'Demonio / Efecto',
+        type:'Demonio/Efecto',
         info:'Alias Cesar Código Bits, habilidad experto en wordpress y en wix, debilidad la chancla, este demonio es hermano de Kuriboh',
         atk: 300,
         def: 200,
@@ -38,7 +57,7 @@ var tiktokers = [
     {
         name: 'Gerardo Schekaiban',
         stars: 5,
-        type: 'Guerrero/Fusion',
+        type: 'Guerrero/Fusión',
         info: 'Poder especial "Yo soy tu amigo fiel de la programacion" aumenta el poder de tus otros programadores en el campo de batalla, debilidad Andy',
         atk: 1800,
         def: 1200,
@@ -56,7 +75,7 @@ var tiktokers = [
     {
         name:'Edrissi Machorro',
         stars:7,
-        type:'Dragon/Fusión',
+        type:'Dragón/Fusión',
         info:'Habilidad dormir, y hacerle broma a Cesar Código Bits, cuando está carta en juego junto con la de Cesar García, Cesar García pierde 100 ATK',
         atk:2400,
         def:200,
@@ -72,9 +91,9 @@ var tiktokers = [
         img: 'IMG-20211005-WA0028.jpg',
     },
     {
-        name: 'francisco jiménez',
+        name: 'Francisco Jiménez',
         stars: 2,
-        type: 'Lanzador de conjuros / Efecto',
+        type: 'Lanzador de conjuros/Efecto',
         info: 'Alias Pamsho.dev hsbilidad maestro en las artes místicas de JavaScript y sacar tiempo para redes sociales, stream, trabajar y estudiar pero además tener pareja, debilidad la vacuna del covid',
         atk: 500,
         def: 400,
@@ -83,7 +102,7 @@ var tiktokers = [
     {
         name: 'Daniel Garrido',
         stars: 6,
-        type: 'Insecto / Efecto',
+        type: 'Insecto/Efecto',
         info: 'Habilidad en dar consejos de programación, especialidad pedir dos tacos de lengua, y le quita el 50% ATK debilidad Alejandro Apodaca.',
         atk: 700,
         def: 400,
@@ -92,7 +111,7 @@ var tiktokers = [
     {
         name: 'Clemente DonOso',
         stars: 12,
-        type: 'Bestia Divina / Efecto',
+        type: 'Bestía Divina/Efecto',
         info: 'Habilidad especial éjercito de robots, debilidad los dogecoins.',
         atk: 4000,
         def: 4000,
@@ -101,7 +120,7 @@ var tiktokers = [
     {
         name: 'Toledo Floang',
         stars: 12,
-        type: 'Bestía Divina/EFECTO',
+        type: 'Bestía Divina/Efecto',
         info: 'Alias: Ingesaurio. Habilidad especial: Dañar libros de ingeniería y dar consejos de ingenieria. En cada ronda aumenta 500ATK.',
         atk: 4000,
         def: 4000,
@@ -110,7 +129,7 @@ var tiktokers = [
     {
         name: 'Stefan Castillo',
         stars: 10,
-        type: 'Hechicero/EFECTO',
+        type: 'Hechicero/Efecto',
         info: 'Habilidad para las artes oscuras del CSS mágico. Habilidad especial: Logos con CSS. Debilidad: Usar JavaScript le quita 100 ATK',
         atk: 2200,
         def: 2000,
@@ -119,14 +138,14 @@ var tiktokers = [
     {
         name: "Maeva Mazadiego",
         stars: 12,
-        type: "Hechicero / Efecto",
+        type: "Hechicero/Efecto",
         info: "Alias Mae, habilidad seriedad absoluta divina, cuando se encuentra en el juego Chica Python Maeva obtiene 1000 ATK",
         atk: 3200,
         def: 3000,
         img: 'IMG-20211005-WA0053.jpg',
     },
     {
-        name: 'jessica azcona',
+        name: 'Jessica Azcona',
         stars: 9,
         type: 'Hechicera',
         info: 'Hablilidad magia antigua que es capaz de borrar cuentas de github, debilidad C, C++',
@@ -146,16 +165,16 @@ var tiktokers = [
     {
         name: 'Rodo Ferro',
         stars:12,
-        type:' Mona China / Synchro / Effect ',
+        type:' Mona China/Synchro/Efecto',
         info:'Habilidad sobre humana para generación de monas chinas para atacar con su ejército, si en el campo de batalla se encuentra Carlita.py evangelizan el doble de rápido al mundo del IA, debilidad el hermano de Kuriboh',
         atk:3000,
         def:2500,
         img: 'IMG-20211005-WA0068.jpg',
     },
     {
-        name: 'joss pelcastre',
+        name: 'Joss Pelcastre',
         stars: 12,
-        type: 'Dragon/Efect',
+        type: 'Dragon/Efecto',
         info: 'Habilidad de maquetación y diseño dragonistico bestial, si en el campo de batalla se encuentra Stefan Castillo duplican su habilidad en CSS divino.',
         atk: 4000,
         def: 3500,
@@ -164,7 +183,7 @@ var tiktokers = [
     {
         name: 'Quién sabe',
         stars: 8,
-        type: 'Metal/Efect',
+        type: 'Metal/Efecto',
         info: 'Habilidad divina de charla astral, especial hackear Facebook de tu ex, si se encuentra al hermano de Kuriboh se igualan sus ATK y DEF',
         atk: 1900,
         def: 1400,
@@ -173,34 +192,34 @@ var tiktokers = [
     {
         name: 'Mafer Vicas',
         stars: 8,
-        type: 'Planta/Efect',
+        type: 'Planta/Efecto',
         info: 'Habilidad dar chismesitos tecnologicos cuando Kao lo están en campo de batalla ambos suben 500 ATK.',
         atk: 1500,
         def: 1500,
         img: 'IMG-20211006-WA0014.jpg',
     },
     {
-        name: 'david portilla',
+        name: 'David Portilla',
         stars: 8,
-        type: 'Mona China / Metal / Efect',
+        type: 'Mona China/Metal/Efecto',
         info: 'Alias el Frontend Mecatronico Habilidad especial jugar pokimon con el Rodo Ferro y sus monas chinas, si en el campo se encuentra a Pamsho.dev incrementa ambos su poder con esteroides a 2500 ATK y DEF',
         atk: 1900,
         def: 1900,
         img: 'IMG-20211006-WA0021.jpg',
     },
     {
-        name: 'Maybemar Hernandez',
+        name: 'Maybemar Hernández',
         stars: 8,
-        type: 'Bestia Divina / Efect',
+        type: 'Bestía Divina/Efecto',
         info: 'Habilidad para hacer videos de tips y comedia en TikTok, habilidad sobre humana de motivar a otros programadores, por cada programador en el campo aumenta en 100 ATK, debilidad el paracetamol de la informatica (reiniciar).',
         atk: 3000,
         def: 3000,
         img: 'IMG-20211006-WA0023.jpg',
     },
     {
-        name: 'Veronica Barrientos',
+        name: 'Verónica Barrientos',
         stars: 12,
-        type: 'Bestia Divina / Efect',
+        type: 'Bestía Divina/Efecto',
         info: 'Alias T-Girl, con su habilidad especial dino explicación ayuda a los demás a elevar su ATK 250 cada ronda, habilidad natural para platicas astrales, debilidad chocolates.',
         atk: 3000,
         def: 3000,
@@ -210,47 +229,51 @@ var tiktokers = [
 
 var main = document.getElementById('app');
 
-for (let index = 0; index < tiktokers.length; index++) {
+function createCards(){
+    for (let index = 0; index < tiktokers.length; index++) {
 
-    var element = document.createElement('div');
-    element.classList.add('card');
-    element.innerHTML = 
-    `<div class="cardMain">
-        <div class="titulo">
-            <span>${tiktokers[index].name}</span>
-        </div>
-        <div class="stars">
-            <img src="../Clase07102021/img/Cards/star.png" alt="">
-            <img src="../Clase07102021/img/Cards/star.png" alt="">
-            <img src="../Clase07102021/img/Cards/star.png" alt="">
-            <img src="../Clase07102021/img/Cards/star.png" alt="">
-            <img src="../Clase07102021/img/Cards/star.png" alt="">
-            <img src="../Clase07102021/img/Cards/star.png" alt="">
-            <img src="../Clase07102021/img/Cards/star.png" alt="">
-            <img src="../Clase07102021/img/Cards/star.png" alt="">
-            <img src="../Clase07102021/img/Cards/star.png" alt="">
-            <img src="../Clase07102021/img/Cards/star.png" alt="">
-            <img src="../Clase07102021/img/Cards/star.png" alt="">
-            <img src="../Clase07102021/img/Cards/star.png" alt="">
-        </div>
-        <div class="img">
-            <div class="bgImg" ></div>
-        </div>
-        <div class="info">
-            <div>
-                <p class="type">
-                [${tiktokers[index].type}]
-                </p>
-                <p class="description">
-                ${tiktokers[index].info}
-                </p>
-                <p class="num">
-                ATK/${tiktokers[index].atk} DEF/${tiktokers[index].def}
-                </p>
+        var element = document.createElement('div');
+        element.classList.add('card');
+        element.innerHTML = 
+        `<div class="cardMain">
+            <div class="titulo">
+                <span>${tiktokers[index].name}</span>
             </div>
-        </div>
-    </div>`;
+            <div class="stars">
+            </div>
+            <div class="img">
+                <div class="bgImg" ></div>
+            </div>
+            <div class="info">
+                <div>
+                    <p class="type">
+                    [${tiktokers[index].type}]
+                    </p>
+                    <p class="description">
+                    ${tiktokers[index].info}
+                    </p>
+                    <p class="num">
+                    ATK/${tiktokers[index].atk} DEF/${tiktokers[index].def}
+                    </p>
+                </div>
+            </div>
+        </div>`;
+        
+        main.appendChild(element);
     
-    main.appendChild(element);
-    document.getElementsByClassName('bgImg')[index].style.backgroundImage = `url(../Clase07102021/img/Cards/${tiktokers[index].img})`;
-}
+        var container = document.getElementsByClassName('stars')[index];
+        console.log(container);
+    
+        for (let index2 = 0; index2 < tiktokers[index].stars; index2++) {
+            
+            let img = document.createElement('img'); 
+            img.src = '../Clase07102021/img/Cards/star.png'
+            container.appendChild(img);
+        }
+    
+        
+        document.getElementsByClassName('bgImg')[index].style.backgroundImage = `url(../Clase07102021/img/Cards/${tiktokers[index].img})`;
+    };
+};
+
+createCards();

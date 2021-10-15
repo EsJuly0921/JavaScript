@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: darkcyan;
+}
+
+#app {
+    background-color: black;
+    width: 400px;
+    padding: 10px;
+}
+
+#app #screen {
+    padding: 10px;
+    background-color: gray;
+    font-size: 25px;
+}
+
+#app #btns {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#app .btn {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+#app #btns .btn:hover{
+    cursor: pointer;
+    background-color: darkgray;
+}
