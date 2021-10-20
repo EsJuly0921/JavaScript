@@ -39,6 +39,8 @@ function suma (){
 }
 
 function resta (){
+    screen    = '0';
+    document.getElementById('screen').innerHTML = screen;
     screen = parseFloat(screen);
     
     if (clicks == 0) {
