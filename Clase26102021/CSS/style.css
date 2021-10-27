@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+}
+ .card{
+     background-color:skyblue;
+     width: 300px;
+     border-radius: 10px;
+ }
+
+ .card .name{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+ }
+
+ .card p{
+     font-size: 20px;
+     color: white;
+ }
