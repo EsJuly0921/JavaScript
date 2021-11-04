@@ -65,6 +65,15 @@ function createPagination(){
 
 function before(){
     console.log('before');
+    container.innerHTML = '';
+    inicio = inicio - 20;
+    final = final - 20;
+    if (inicio == 0) {
+        inicio + 20;
+        final = final + 20;
+    } else {
+        pokemones()
+    }
 }
 
 function next(){

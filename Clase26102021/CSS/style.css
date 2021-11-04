@@ -4,6 +4,10 @@
     font-family: Helvetica;
 }
 
+body{
+    background-color: thistle;
+}
+
 #app{
     display: flex;
     flex-wrap: wrap;
