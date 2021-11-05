@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+}
+
+#input{
+    padding: 20px;
+    background-color: lightseagreen;
+    color: white;
+}
+
+.center{
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+#input input{
+    margin-top: 20px;
+    padding: 10px;
+    width: 250px;
+}
+
+#input div{
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    width: 100px;
+}
+
+#input div:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+#todos div{
+    text-align: center;
+    padding: 12px;
+    background-color: coral;
+    color: white;
+}
+
+#todos div:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#todos div.tachado{
+    text-decoration: line-through;
+}
